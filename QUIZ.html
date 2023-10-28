@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .quiz-container{
+            max-width:600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f7f7f7;
+        }
+
+        .question{
+            margin-bottom: 10px;
+        }
+
+        .options{
+            margin-left: 20px;
+        }
+
+        .submit-btn{
+            margin-top: 10px;
+        }
+    </style>
+    </head>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Time</h1>
+        <form action="quiz-result.php"method="post">
+            <div class="question">
+                <p>
+                    1.What is the capital of india?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="a">New Delhi</label><br>
+                    <label><input type="radio" name="q2" value="b">Mumbai</label><br>
+                    <label><input type="radio" name="q3" value="c">Kolkata</label><br>
+                    <label><input type="radio" name="q4" value="d">Bangalor</label><br>  
+                </div>
+                 
+                <p>
+                    2.Which planet is known as the Red Planet?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="a">Mars</label><br>
+                    <label><input type="radio" name="q2" value="b">Venus</label><br>
+                    <label><input type="radio" name="q3" value="c">Jupiter</label><br>
+                    <label><input type="radio" name="q4" value="d">Saturn</label><br>  
+                </div>
+            </div>
+                <button type="submit" class="submit-btn">Submit</button>
+                <button type="score" class="score-btn">Score</button>
+        </form>
+    </div>
+</body>
+</html>

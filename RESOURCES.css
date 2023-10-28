@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,
+    rgba(0,0,0,0.5)50%),url(BR.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20PX;
+    float: left;
+    padding-top: 25px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 38px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 25px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+ ::placeholder{
+    color: #fff;
+}
+
+.book{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.book{
+    width: 155px;
+    height: 100px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    margin-top: 25px;                                
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+
+.solution{
+    width: 155px;
+    height: 100px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+         
+    
+    
+
+
+
