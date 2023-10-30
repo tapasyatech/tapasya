@@ -64,8 +64,17 @@ ul li a{
 ul li a:hover{
     color: #ff7200;
 }
+.nav-singin{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
 
-.search{
+.a:hover{
+  color: #ff7200;
+}
+
+/*.search{
     width: 330px;
     float: left;
     margin-left: 270px;
@@ -85,7 +94,7 @@ ul li a:hover{
     padding: 15px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-}
+}*/
 
 .btn{
     width: 100px;
@@ -99,13 +108,15 @@ ul li a:hover{
     border-bottom-right-radius: 5px;
 }
 
+
+
 .btn:focus{
     outline: none;
 }
 
-.srch:focus{
+/*.srch:focus{
     outline: none;
-}
+}*/
 
 .content{
     width: 1200px;
