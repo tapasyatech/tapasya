@@ -65,7 +65,7 @@ ul li {
     font-size: 15px;
 }
 
-ul li a {
+:is(ul,li) a {
     text-decoration: none;
     color: #fff;
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
@@ -73,8 +73,7 @@ ul li a {
     transition: 0.4s ease-in-out;
 }
 
-ul li a:hover {
-    color: #ff7200;
+3     color: #ff7200;
 }
 
 .nav-singin{
@@ -131,7 +130,7 @@ ul li a:hover {
 .content .cn {
     width: 160px;
     height: 40px;
-    background: #ff7200;
+    background: #ff7200;  +
     margin-bottom: 10px;
     margin-left: 20px;
     font-size: 18px;
